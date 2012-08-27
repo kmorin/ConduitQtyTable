@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0"
+	ProductType="Application" Name="Conduit Quantity Table" Author="Kyle T. Morin"
+	HelpFile="./Contents/Resources/helpfile.html">
+  <Components>
+    <ComponentEntry AppName="ConduitQtyTable"
+                    ModuleName="./Contents/ConduitQtyTable.dll" LoadOnCommandInvocation="true">
+      <Commands GroupName="DynaCommands">
+        <Command Global="CONDUITQTYTABLE" Local="CONDUITQTYTABLE" />
+        <Command Global="SETMLEADERLAYER" Local="SETMLEADERLAYER" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>
